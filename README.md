@@ -76,6 +76,6 @@ npm run dev
 
 ## 📸 Output Preview
 
-![Dashboard Output](https://raw.githubusercontent.com/MohammadSami9555/env-config-frontend-demo/main/screenshots/dashboard-output.png)
+![Dashboard Output](https://github.com/MohammadSami9555/env-config-frontend-demo/blob/main/screenshots/dashboard-output.png?raw=true)
 
 
