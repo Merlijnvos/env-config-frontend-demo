@@ -76,7 +76,6 @@ npm run dev
 
 ## 📸 Output Preview
 
-![Dashboard Output](./screenshots/dashboard-output.png)
+![Dashboard Output](https://raw.githubusercontent.com/MohammadSami9555/env-config-frontend-demo/main/screenshots/dashboard-output.png)
 
-## ✅ Status
-Project setup completed and feature flag working successfully.
+
