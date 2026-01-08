@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #213547;
+  min-height: 100vh;
+}
+
+/* App container */
+#root {
+  padding: 40px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+button {
+  padding: 10px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dashboard {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  text-align: center;
+}
+
+.dashboard h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.dashboard p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
