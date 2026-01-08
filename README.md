@@ -1,73 +1,80 @@
-# React + TypeScript + Vite
+# 12-Factor Frontend Environment Config Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend demo project showcasing **12-factor app principles** by managing environment variables for API URLs and feature flags without hardcoding values.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Environment-based configuration (`development` & `production`)
+- Centralized config management
+- No hardcoded API URLs
+- Feature flags for UI toggling
+- Safe frontend env exposure
+- `.env.example` for easy setup
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- Vite
+- React
+- TypeScript
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ⚙️ Environment Setup
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Create environment files at the project root:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### `.env.development`
+```env
+VITE_API_BASE_URL=https://example.com
+VITE_FEATURE_NEW_DASHBOARD=true
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+.env.production
+----
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+VITE_API_BASE_URL=https://api.example.com
+VITE_FEATURE_NEW_DASHBOARD=false
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+
+.env.example
+----
+
+VITE_API_BASE_URL=
+VITE_FEATURE_NEW_DASHBOARD=
+
+⚠️ Only variables prefixed with VITE_ are exposed to the frontend.
+
+🧠 Configuration
+----
+
+export const config = {
+  apiBaseUrl: import.meta.env.VITE_API_BASE_URL,
+  featureNewDashboard:
+    import.meta.env.VITE_FEATURE_NEW_DASHBOARD === 'true',
+};
+
+
+🎛️ Feature Flags
+---
+
+The dashboard UI toggles automatically based on the environment variable:
+
+true → New Dashboard
+
+false → Old Dashboard
+
+No code changes required.
+
+▶️ Run Locally
+----
+
+npm install
+npm run dev
+
+
+## 📸 Output Preview
+
+![Dashboard Output](./screenshots/dashboard-output.png)
+
