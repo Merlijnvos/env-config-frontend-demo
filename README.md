@@ -74,8 +74,5 @@ npm install
 npm run dev
 
 
-## 📸 Output Preview
-
-![Dashboard Output](https://github.com/MohammadSami9555/env-config-frontend-demo/blob/main/screenshots/dashboard-output.png?raw=true)
 
 
